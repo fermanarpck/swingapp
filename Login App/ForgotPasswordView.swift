@@ -1,5 +1,6 @@
 import SwiftUI
-import FirebaseAuth // Firebase Authentication kütüphanesini içe aktarır
+import FirebaseAuth
+// Firebase Authentication kütüphanesini içe aktarır
 
 struct ForgotPasswordView: View { // ForgotPasswordView adında bir SwiftUI görünüm yapısı tanımlar
     @State private var email = "" // E-posta adresini saklayacak değişken
